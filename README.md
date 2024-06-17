@@ -17,7 +17,7 @@ Este script Python utiliza Selenium para monitorear la disponibilidad de entrada
    Asegúrate de tener las siguientes variables de entorno configuradas:
 
    - `TELEGRAM_BOT_TOKEN`: Token de acceso para tu bot de Telegram (el bot debe ser administrador y tener habilitado el envio de mensajes al canal de telegram).
-   - `TELEGRAM_CHANNEL_USERNAME`: Nombre de usuario del canal de Telegram donde se enviarán las notificaciones.
+   - `TELEGRAM_CHANNEL_USERNAME`: ID del canal de Telegram donde se enviarán las notificaciones.(El ID del canal se puede obtener reenviando un mensaje del canal a @JsonDumpBot)
    - `SHOW_URL`: URL del evento en el Movistar Arena..
 
 2. **Instalación de Dependencias:**
